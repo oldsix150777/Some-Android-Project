@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gsontest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\old\.gradle\caches\transforms-4\dabe160149a045fa4fea574e9a09a743\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.gsontest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\old\.gradle\caches\transforms-4\dabe160149a045fa4fea574e9a09a743\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\old\.gradle\caches\transforms-4\dabe160149a045fa4fea574e9a09a743\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.gsontest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\old\.gradle\caches\transforms-4\dabe160149a045fa4fea574e9a09a743\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\old\.gradle\caches\transforms-4\dabe160149a045fa4fea574e9a09a743\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:4:5-93:19
+18        android:allowBackup="true"
+18-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\old\.gradle\caches\transforms-4\dabe160149a045fa4fea574e9a09a743\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:6:9-43
+23        android:label="@string/app_name"
+23-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:7:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:8:9-54
+25        android:supportsRtl="true"
+25-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:9:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Two2" >
+27-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:10:9-42
+28        <activity
+28-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:11:9-19:20
+29            android:name="com.example.gsontest.ListJsonActivity"
+29-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:12:13-45
+30            android:exported="true" >
+30-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:13:13-36
+31            <intent-filter>
+31-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+32-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+34-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:20:9-28:20
+38            android:name="com.example.gsontest.ExposeActivity"
+38-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:21:13-43
+39            android:exported="true" >
+39-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:22:13-36
+40            <intent-filter>
+40-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+41-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+43-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:29:9-37:20
+47            android:name="com.example.gsontest.MainActivity"
+47-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:30:13-41
+48            android:exported="true" >
+48-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:31:13-36
+49            <intent-filter>
+49-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+50-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+52-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:38:9-46:20
+56            android:name="com.example.gsontest.MapJsonActivity"
+56-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:39:13-44
+57            android:exported="true" >
+57-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:40:13-36
+58            <intent-filter>
+58-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+59-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+61-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:47:9-55:20
+65            android:name="com.example.gsontest.MoreTypeActivity"
+65-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:48:13-45
+66            android:exported="true" >
+66-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:49:13-36
+67            <intent-filter>
+67-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+68-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+70-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:56:9-64:20
+74            android:name="com.example.gsontest.PojoActivity"
+74-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:57:13-41
+75            android:exported="true" >
+75-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:58:13-36
+76            <intent-filter>
+76-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+77-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+79-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:65:9-73:20
+83            android:name="com.example.gsontest.SerializedNameActivity"
+83-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:66:13-51
+84            android:exported="true" >
+84-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:67:13-36
+85            <intent-filter>
+85-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+86-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+88-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:74:9-82:20
+92            android:name="com.example.gsontest.SinceAndUntilActivity"
+92-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:75:13-50
+93            android:exported="true" >
+93-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:76:13-36
+94            <intent-filter>
+94-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+95-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+97-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:83:9-91:20
+101            android:name="com.example.gsontest.ToJsonActivity"
+101-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:84:13-43
+102            android:exported="true" >
+102-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:85:13-36
+103            <intent-filter>
+103-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:14:13-18:29
+104                <action android:name="android.intent.action.MAIN" />
+104-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:17-69
+104-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:15:25-66
+105
+106                <category android:name="android.intent.category.LAUNCHER" />
+106-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:17-77
+106-->C:\Android\Android Project\two2\gsontest\src\main\AndroidManifest.xml:17:27-74
+107            </intent-filter>
+108        </activity>
+109
+110        <provider
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\old\.gradle\caches\transforms-4\b8745afc22bf9f7a1b775102cbfa5f76\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+111            android:name="androidx.startup.InitializationProvider"
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\old\.gradle\caches\transforms-4\b8745afc22bf9f7a1b775102cbfa5f76\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+112            android:authorities="com.example.gsontest.androidx-startup"
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\old\.gradle\caches\transforms-4\b8745afc22bf9f7a1b775102cbfa5f76\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+113            android:exported="false" >
+113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\old\.gradle\caches\transforms-4\b8745afc22bf9f7a1b775102cbfa5f76\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+114            <meta-data
+114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\old\.gradle\caches\transforms-4\b8745afc22bf9f7a1b775102cbfa5f76\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\old\.gradle\caches\transforms-4\b8745afc22bf9f7a1b775102cbfa5f76\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+116                android:value="androidx.startup" />
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\old\.gradle\caches\transforms-4\b8745afc22bf9f7a1b775102cbfa5f76\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+117            <meta-data
+117-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\old\.gradle\caches\transforms-4\d374fadc55c4752205e1b4dc0e761c30\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+118-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\old\.gradle\caches\transforms-4\d374fadc55c4752205e1b4dc0e761c30\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+119                android:value="androidx.startup" />
+119-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\old\.gradle\caches\transforms-4\d374fadc55c4752205e1b4dc0e761c30\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+122                android:value="androidx.startup" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+123        </provider>
+124
+125        <receiver
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+126            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+127            android:directBootAware="false"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+128            android:enabled="true"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+129            android:exported="true"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+130            android:permission="android.permission.DUMP" >
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+132                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+135                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+138                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+141                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+142            </intent-filter>
+143        </receiver>
+144    </application>
+145
+146</manifest>

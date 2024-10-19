@@ -1,0 +1,3 @@
+com.example.dagger2_test.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

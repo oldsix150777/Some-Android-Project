@@ -1,0 +1,34 @@
+com.example.gsontest-pngs-0 C:\Android\Android Project\two2\gsontest\build\generated\res\pngs\debug
+com.example.gsontest-resValues-1 C:\Android\Android Project\two2\gsontest\build\generated\res\resValues\debug
+com.example.gsontest-packageDebugResources-2 C:\Android\Android Project\two2\gsontest\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.gsontest-packageDebugResources-3 C:\Android\Android Project\two2\gsontest\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.gsontest-debug-4 C:\Android\Android Project\two2\gsontest\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.gsontest-debug-5 C:\Android\Android Project\two2\gsontest\src\debug\res
+com.example.gsontest-main-6 C:\Android\Android Project\two2\gsontest\src\main\res
+com.example.gsontest-drawerlayout-1.1.1-7 C:\Users\old\.gradle\caches\transforms-4\014fb4c52d9815dc4fc1cf96f2927600\transformed\drawerlayout-1.1.1\res
+com.example.gsontest-startup-runtime-1.1.1-8 C:\Users\old\.gradle\caches\transforms-4\05f3c073c8205e01e7d82f7447f5856e\transformed\startup-runtime-1.1.1\res
+com.example.gsontest-core-ktx-1.9.0-9 C:\Users\old\.gradle\caches\transforms-4\0851681c58705c23e0ac3fc820d170be\transformed\core-ktx-1.9.0\res
+com.example.gsontest-annotation-experimental-1.3.0-10 C:\Users\old\.gradle\caches\transforms-4\31865db3430b5dfd298cb8546a137d95\transformed\annotation-experimental-1.3.0\res
+com.example.gsontest-appcompat-1.6.1-11 C:\Users\old\.gradle\caches\transforms-4\33e109b00c11cdf6061f173906b61755\transformed\appcompat-1.6.1\res
+com.example.gsontest-lifecycle-viewmodel-2.6.1-12 C:\Users\old\.gradle\caches\transforms-4\415db3a5abd74fedee24944a24bde0b0\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.gsontest-constraintlayout-2.1.4-13 C:\Users\old\.gradle\caches\transforms-4\46094d77014813b13aed4c51924d9232\transformed\constraintlayout-2.1.4\res
+com.example.gsontest-savedstate-1.2.1-14 C:\Users\old\.gradle\caches\transforms-4\4b4f08dda9260e2c90b22f86aef67a05\transformed\savedstate-1.2.1\res
+com.example.gsontest-coordinatorlayout-1.1.0-15 C:\Users\old\.gradle\caches\transforms-4\6d1d115d1eed75b166961d9b6d5dfb99\transformed\coordinatorlayout-1.1.0\res
+com.example.gsontest-lifecycle-livedata-2.6.1-16 C:\Users\old\.gradle\caches\transforms-4\724cea98b86821b908cf8d33576d1bcd\transformed\lifecycle-livedata-2.6.1\res
+com.example.gsontest-appcompat-resources-1.6.1-17 C:\Users\old\.gradle\caches\transforms-4\8c423e9216b8549b9341e971226b33ab\transformed\appcompat-resources-1.6.1\res
+com.example.gsontest-fragment-1.3.6-18 C:\Users\old\.gradle\caches\transforms-4\9447d12cc06849de05af14b40a68c7c0\transformed\fragment-1.3.6\res
+com.example.gsontest-lifecycle-viewmodel-savedstate-2.6.1-19 C:\Users\old\.gradle\caches\transforms-4\981c8ceda13d4e7b3b0db6be461da90d\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.gsontest-profileinstaller-1.3.0-20 C:\Users\old\.gradle\caches\transforms-4\b4295192e83f94f00bad3a29c9f43ec2\transformed\profileinstaller-1.3.0\res
+com.example.gsontest-activity-1.8.0-21 C:\Users\old\.gradle\caches\transforms-4\b562a35c5f8d23c429e58168001e4b93\transformed\activity-1.8.0\res
+com.example.gsontest-emoji2-1.2.0-22 C:\Users\old\.gradle\caches\transforms-4\b8745afc22bf9f7a1b775102cbfa5f76\transformed\emoji2-1.2.0\res
+com.example.gsontest-cardview-1.0.0-23 C:\Users\old\.gradle\caches\transforms-4\c20effe805a199dde8f1eda53d78a70e\transformed\cardview-1.0.0\res
+com.example.gsontest-lifecycle-process-2.6.1-24 C:\Users\old\.gradle\caches\transforms-4\d374fadc55c4752205e1b4dc0e761c30\transformed\lifecycle-process-2.6.1\res
+com.example.gsontest-viewpager2-1.0.0-25 C:\Users\old\.gradle\caches\transforms-4\d575685bd2e90f8f33376196829bdc67\transformed\viewpager2-1.0.0\res
+com.example.gsontest-core-1.9.0-26 C:\Users\old\.gradle\caches\transforms-4\dabe160149a045fa4fea574e9a09a743\transformed\core-1.9.0\res
+com.example.gsontest-recyclerview-1.1.0-27 C:\Users\old\.gradle\caches\transforms-4\e38dda3d74255c3ed3a1e6ead693f19d\transformed\recyclerview-1.1.0\res
+com.example.gsontest-lifecycle-runtime-2.6.1-28 C:\Users\old\.gradle\caches\transforms-4\e390f37f3de7a8b566d0b00ffc46e814\transformed\lifecycle-runtime-2.6.1\res
+com.example.gsontest-transition-1.2.0-29 C:\Users\old\.gradle\caches\transforms-4\e7a58f411c829075a20914f3266e3722\transformed\transition-1.2.0\res
+com.example.gsontest-lifecycle-livedata-core-2.6.1-30 C:\Users\old\.gradle\caches\transforms-4\eb3ae6eb97b542390bce0ccedcf0ef9b\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.gsontest-emoji2-views-helper-1.2.0-31 C:\Users\old\.gradle\caches\transforms-4\f20aa82b20eb6f7ec4fed7fc9d15e83b\transformed\emoji2-views-helper-1.2.0\res
+com.example.gsontest-core-runtime-2.2.0-32 C:\Users\old\.gradle\caches\transforms-4\f38cdf0bf8e6bc9a3c1e6e478aa9bd2f\transformed\core-runtime-2.2.0\res
+com.example.gsontest-material-1.10.0-33 C:\Users\old\.gradle\caches\transforms-4\f78aeddcf359ccb2e0717857329c731e\transformed\material-1.10.0\res

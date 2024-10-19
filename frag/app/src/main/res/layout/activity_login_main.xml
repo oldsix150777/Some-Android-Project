@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registerandlogin.LoginMainActivity">
+
+    <RelativeLayout
+        android:id="@+id/login_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/login_main_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="登录"
+            android:textSize="50dp"
+            android:textStyle="italic" />
+
+        <RadioGroup
+            android:id="@id/login_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_main_text"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/login_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码登录" />
+
+            <RadioButton
+                android:id="@+id/login_verification_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="验证码登录" />
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:id="@+id/login_textView_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_radio_group"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/login_phone_number"
+                android:layout_width="85dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="手机号："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/login_phone_number_password"
+                android:layout_width="85dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/login_phone_number"
+                android:gravity="center"
+                android:text="密码："
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/login_phone_number_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/login_phone_number" />
+
+            <EditText
+                android:id="@+id/login_phone_number_password_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_phone_number_edit"
+                android:layout_alignRight="@+id/login_phone_number_edit" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/forget_button"
+                android:text="忘记密码"
+                android:id="@+id/login_forget_password"
+                android:layout_below="@+id/login_phone_number_password_edit"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/forget_button"
+                android:text="注册"
+                android:id="@+id/reg_button"
+                android:layout_toRightOf="@id/login_forget_password"
+                android:layout_below="@+id/login_phone_number_password_edit"
+                />
+        </RelativeLayout>
+
+        <CheckBox
+            android:id="@+id/login_remember_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_textView_group"
+            android:layout_marginLeft="70dp"
+            android:text="记住密码" />
+
+
+        <Button
+            android:id="@+id/login_login_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_remember_password"
+            android:layout_centerHorizontal="true"
+            android:text="登录"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

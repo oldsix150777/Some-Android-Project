@@ -1,0 +1,6 @@
+com.example.dagger2_test.test.dagger2-test-androidTest-0 C:\Android\Android Project\two2\app\dagger2-test\build\generated\res\resValues\androidTest\debug
+com.example.dagger2_test.test.dagger2-test-mergeDebugAndroidTestResources-1 C:\Android\Android Project\two2\app\dagger2-test\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.dagger2_test.test.dagger2-test-mergeDebugAndroidTestResources-2 C:\Android\Android Project\two2\app\dagger2-test\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.dagger2_test.test.dagger2-test-debugAndroidTest-3 C:\Android\Android Project\two2\app\dagger2-test\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.dagger2_test.test.dagger2-test-annotation-experimental-1.3.0-4 C:\Users\old\.gradle\caches\transforms-4\31865db3430b5dfd298cb8546a137d95\transformed\annotation-experimental-1.3.0\res
+com.example.dagger2_test.test.dagger2-test-core-1.5.0-5 C:\Users\old\.gradle\caches\transforms-4\f670271ad7373f5a7b48a80530519506\transformed\core-1.5.0\res

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registerandlogin.RegisterActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_wel"
+        android:id="@+id/wel_img"
+
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_et_group"
+        android:layout_below="@+id/wel_img"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/kb"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kb"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:id="@+id/tv_reg_phone"
+            android:text="请输入手机号："
+            android:textSize="20dp" />
+
+        <EditText
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_reg_phone"
+            android:layout_below="@id/kb"
+            android:layout_toRightOf="@id/tv_reg_phone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_reg_phone"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:id="@+id/tv_reg_pw"
+            android:text="请输入密码："
+            android:textSize="20dp" />
+
+        <EditText
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_reg_pw"
+            android:layout_below="@id/et_reg_phone"
+            android:layout_toRightOf="@id/tv_reg_phone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_but_group"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_et_group">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:id="@+id/reg_but_qd"
+            />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:layout_toRightOf="@id/reg_but_qd"
+
+            android:id="@+id/reg_return"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

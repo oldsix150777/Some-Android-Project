@@ -1,0 +1,10 @@
+#Thu Sep 05 10:17:51 CST 2024
+base.0=C\:\\Android\\Android Project\\two2\\app\\dagger2-test\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Android\\Android Project\\two2\\app\\dagger2-test\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Android\\Android Project\\two2\\app\\dagger2-test\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\5\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=5/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
